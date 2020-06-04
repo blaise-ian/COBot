@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Melee" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Melee" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:\Program Files\Conquer 2.0" />
+				<Option object_output="obj\Debug\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option host_application="Conquer_.exe" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Melee" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:\Program Files\Conquer 2.0" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="CO\Addresses.cpp" />
+		<Unit filename="CO\Addresses.h" />
+		<Unit filename="CO\Bots\AttackSpammer.cpp" />
+		<Unit filename="CO\Bots\AttackSpammer.h" />
+		<Unit filename="CO\Bots\Botjail.cpp" />
+		<Unit filename="CO\Bots\Botjail.h" />
+		<Unit filename="CO\Bots\Disconnector.cpp" />
+		<Unit filename="CO\Bots\Disconnector.h" />
+		<Unit filename="CO\Bots\Follower.cpp" />
+		<Unit filename="CO\Bots\Follower.h" />
+		<Unit filename="CO\Bots\Gambler.cpp" />
+		<Unit filename="CO\Bots\Gambler.h" />
+		<Unit filename="CO\Bots\Goto.cpp" />
+		<Unit filename="CO\Bots\Goto.h" />
+		<Unit filename="CO\Bots\Looter.cpp" />
+		<Unit filename="CO\Bots\Looter.h" />
+		<Unit filename="CO\Bots\Melee.cpp" />
+		<Unit filename="CO\Bots\Melee.h" />
+		<Unit filename="CO\Bots\Potter.cpp" />
+		<Unit filename="CO\Bots\Potter.h" />
+		<Unit filename="CO\Bots\XpSkill.cpp" />
+		<Unit filename="CO\Bots\XpSkill.h" />
+		<Unit filename="CO\Client.cpp" />
+		<Unit filename="CO\Client.h" />
+		<Unit filename="CO\Hooks\DiceKing.h" />
+		<Unit filename="CO\Hooks\ItemList.h" />
+		<Unit filename="CO\Hooks\RecvPacket.cpp" />
+		<Unit filename="CO\Hooks\RecvPacket.h" />
+		<Unit filename="CO\Hooks\Talk.cpp" />
+		<Unit filename="CO\Hooks\Talk.h" />
+		<Unit filename="CO\Hooks\Update.cpp" />
+		<Unit filename="CO\Hooks\Update.h" />
+		<Unit filename="CO\InvItem.h" />
+		<Unit filename="CO\Path\Coord.h" />
+		<Unit filename="CO\Path\PathFinder.cpp" />
+		<Unit filename="CO\Path\PathFinder.h" />
+		<Unit filename="CO\Roles\Hero.cpp" />
+		<Unit filename="CO\Roles\Hero.h" />
+		<Unit filename="CO\Roles\Role.cpp" />
+		<Unit filename="CO\Roles\Role.h" />
+		<Unit filename="Hook.cpp" />
+		<Unit filename="Hook.h" />
+		<Unit filename="MemorySearcher.cpp" />
+		<Unit filename="MemorySearcher.h" />
+		<Unit filename="SecretCall.cpp" />
+		<Unit filename="SecretCall.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
